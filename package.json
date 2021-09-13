@@ -1,0 +1,28 @@
+{
+  "name": "ra-reference-list",
+  "version": "1.0.0",
+  "description": "For displaying related list in show component",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvapoojary/ra-reference-list.git"
+  },
+  "keywords": [
+    "react-admin",
+    "ra",
+    "ra-reference",
+    "list"
+  ],
+  "author": "yuvapoojary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvapoojary/ra-reference-list/issues"
+  },
+  "homepage": "https://github.com/yuvapoojary/ra-reference-list#readme"
+}
