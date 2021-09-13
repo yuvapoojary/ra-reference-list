@@ -1,6 +1,6 @@
 {
   "name": "ra-reference-list",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "For displaying related list in show component",
   "main": "index.js",
   "directories": {
