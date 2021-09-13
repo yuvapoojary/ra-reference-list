@@ -1,4 +1,4 @@
-import { ReferenceList, ParentRecordContext, useParentRecord } from './lib/ReferenceList';
+import { ReferenceList, ParentRecordContext, useParentRecord } from './ReferenceList';
 
 export {
   useParentRecord,

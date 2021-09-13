@@ -1,13 +1,22 @@
 {
   "name": "ra-reference-list",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "For displaying related list in show component",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib",
+    "version": "npm run build && git add --all lib",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "react": "^16.13.0"
   },
   "repository": {
     "type": "git",
